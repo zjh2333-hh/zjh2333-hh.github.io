@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>风月宝鉴</title>
+    <style>
+        .interface{
+            height: 720px;
+            width: 480px;
+            border: 2px solid black;
+            background-image: url("img/0.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .title{
+            text-align: center;
+            font-size: 100px;
+            color: orangered;
+        }
+        .button{
+            text-align: center;
+            background-color: lightgray;
+            border: 1px outset;
+            width: 50px;
+            margin: auto;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        //localStorage.clear();
+        //localStorage.money=100000;
+        if(!localStorage.money){
+            localStorage.money=10000;
+        }
+        var money=Number(localStorage.money);
+        var d=new Date();
+        var nowtime=d.getTime();
+        if(!localStorage.lasttime){
+            localStorage.lasttime=Math.floor(nowtime/60000)*60000;
+        }
+        if(nowtime-localStorage.lasttime>60000){
+            money+=Math.floor((nowtime-localStorage.lasttime)/60000)*10;
+            localStorage.lasttime=Math.floor(nowtime/60000)*60000;
+            localStorage.money=money;
+        }
+        if(!localStorage.cards){
+            localStorage.cards=JSON.stringify(new Array());
+        }
+    </script>
+    <div class="interface">
+        <div>
+            <img src="img/money.JPG" alt="money" style="height: 25px; float: left;">
+            <div id="money" style="font-size: 20px; float: left;"></div>
+            <script>
+                document.getElementById("money").innerHTML=money;
+            </script>
+            <a href="more.html"><img src="img/plus.jpg" alt="more" style="height: 25px; float: left;"></a><br><br>
+        </div>
+        <div class="title">风<br/>月<br/>宝<br/>鉴</div>
+        <br>
+        <div class="button">
+            <a href="chouka.html" >抽卡</a>
+        </div>
+        <br>
+        <div class="button">
+            <a href="view.html" >鉴赏</a>
+        </div>
+    </div>
+</body>
+</html>
