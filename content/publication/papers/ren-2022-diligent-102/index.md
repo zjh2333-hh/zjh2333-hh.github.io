@@ -14,4 +14,8 @@ publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
   Recognition*'
+links:
+- name: pdf
+  url: https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_DiLiGenT102_A_Photometric_Stereo_Benchmark_Dataset_With_Controlled_Shape_and_CVPR_2022_paper.pdf
 ---
+
