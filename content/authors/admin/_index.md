@@ -114,5 +114,5 @@ social:
 highlight_name: true
 ---
 
-I am a senior undergraduate student in EECS in Peking University. During this summber, I had a wonderful time at CMU working with Porf. Steven Wu and Dr. Renato Paes Leme. I have been working as a research intern at PKU CFCS, advised by Prof. Xiaotie Deng. Earlier, I worked as a research intern at PKU Camera Intelligence Lab, advised by Prof. Boxin Shi.
+I am a senior undergraduate student in EECS in [Peking University (PKU)]{https://english.pku.edu.cn/}. I have been working as a research intern at PKU [CFCS]{https://cfcs.pku.edu.cn/english/}, advised by Prof. [Xiaotie Deng]{https://scholar.google.com/citations?user=OBUwP_oAAAAJ&hl=zh-CN}. During this summer, I had a wonderful time at [CMU]{https://www.cmu.edu/} working with Porf. [Steven Wu]{https://zstevenwu.com/} and Dr. [Renato Paes Leme]{https://www.renatoppl.com/} (Google Research New York). Earlier, I worked as a research intern at PKU [Camera Intelligence Lab]{https://ci.idm.pku.edu.cn/}, advised by Prof. [Boxin Shi]{https://scholar.google.com/citations?user=K1LjZxcAAAAJ&hl=en}.
 {style="text-align: justify;"}
