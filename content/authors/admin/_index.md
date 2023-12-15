@@ -25,7 +25,7 @@ organizations:
     url: https://english.pku.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a senior undergraduate student in EECS in Peking University. During this summber, I had a wonderful time at CMU working with Porf. Steven Wu and Dr. Renato Paes Leme. I have been working as a research intern at PKU CFCS, advised by Prof. Xiaotie Deng. Earlier, I worked as a research intern at PKU Camera Intelligence Lab, advised by Prof. Boxin Shi.
+bio: ''
 
 # Interests to show in About widget
 interests:
@@ -114,5 +114,5 @@ social:
 highlight_name: true
 ---
 
-<!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"} -->
+I am a senior undergraduate student in EECS in Peking University. During this summber, I had a wonderful time at CMU working with Porf. Steven Wu and Dr. Renato Paes Leme. I have been working as a research intern at PKU CFCS, advised by Prof. Xiaotie Deng. Earlier, I worked as a research intern at PKU Camera Intelligence Lab, advised by Prof. Boxin Shi.
+{style="text-align: justify;"}
