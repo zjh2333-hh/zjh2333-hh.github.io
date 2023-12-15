@@ -210,7 +210,7 @@ sections:
       #   {{% /callout %}}
       filters:
         folders:
-          - publication/papers
+          - publication
         exclude_featured: true
     design:
       columns: '2'
