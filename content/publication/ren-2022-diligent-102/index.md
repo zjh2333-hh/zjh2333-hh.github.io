@@ -4,7 +4,7 @@ title: 'Diligent102: A photometric stereo benchmark dataset with controlled shap
 authors:
 - Jieji Ren
 - Feishi Wang
-- Jiahao Zhang
+- admin
 - Qian Zheng
 - Mingjun Ren
 - Boxin Shi

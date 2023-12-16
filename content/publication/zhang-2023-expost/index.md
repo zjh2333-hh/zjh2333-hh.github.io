@@ -1,7 +1,7 @@
 ---
 title: Ex-post Individually Rational Bayesian Persuasion
 authors:
-- Jiahao Zhang
+- admin
 - Shuran Zheng
 - Renato Paes Leme
 - Zhiwei Steven Wu
