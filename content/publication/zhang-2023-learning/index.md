@@ -7,10 +7,11 @@ authors:
 - Zhe Feng
 - Yifeng Teng
 - Xiaotie Deng
-date: '2023-09-23'
-publishDate: '2023-12-15T11:11:43.489344Z'
+date: '2023-01-15'
+publishDate: '2024-1-15T11:11:43.489344Z'
 publication_types:
-- manuscript
+- paper-conference
+publication: 'ICLR (to appear)'
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2312.04653
