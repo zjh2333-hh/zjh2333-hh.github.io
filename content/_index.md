@@ -238,16 +238,16 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: jiahao.zhang@pku.edu.cn
+      email: jiahaozhang@cmu.edu
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        street: No.5 Yiheyuan Road
-        city: Beijing City
-        region: Beijing
-        postcode: '100871'
-        country: China
-        country_code: CN
+        street: 4665 Forbes Ave
+        city: Pittsburgh  
+        region: PA
+        postcode: '15213'
+        country: United States
+        country_code: US
     #   directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
     #   office_hours:
     #     - 'Monday 10:00 to 13:00'

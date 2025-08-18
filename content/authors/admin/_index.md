@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Undergraduate in Computer Science
+role: PhD in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Peking University
-    url: https://english.pku.edu.cn/
+  - name: Carnegie Mellon University
+    url: https://www.cmu.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: ''
@@ -38,7 +38,6 @@ education:
   courses:
     - course: BSc in Computer Science and Economics
       institution: Peking University
-      year: 2024 (expected)
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -114,5 +113,4 @@ social:
 highlight_name: true
 ---
 
-I am a senior undergraduate student in EECS in [Peking University (PKU)](https://english.pku.edu.cn/). I have been working as a research intern at PKU [CFCS](https://cfcs.pku.edu.cn/english/), advised by Prof. [Xiaotie Deng](https://scholar.google.com/citations?user=OBUwP_oAAAAJ&hl=zh-CN). During this summer, I had a wonderful time at [CMU](https://www.cmu.edu/) working with Prof. [Steven Wu](https://zstevenwu.com/) and Dr. [Renato Paes Leme](https://www.renatoppl.com/) (Google Research New York). Earlier, I worked as a research intern at PKU [Camera Intelligence Lab](https://ci.idm.pku.edu.cn/), advised by Prof. [Boxin Shi](https://scholar.google.com/citations?user=K1LjZxcAAAAJ&hl=en).
-{style="text-align: justify;"}
+I am a PhD candidate in [School of Computer Science] (https://www.cs.cmu.edu/) at [Carnegie Mellon University (CMU)](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu] (https://zstevenwu.com/). During my undergraduate study, I was fortunate to receive guidance from Prof. [Boxin Shi](https://scholar.google.com/citations?user=K1LjZxcAAAAJ&hl=en) (Peking University), Prof. [Xiaotie Deng](https://scholar.google.com/citations?user=OBUwP_oAAAAJ&hl=zh-CN) (Peking University) and Dr. [Renato Paes Leme](https://www.renatoppl.com/) (Google Research New York). {style="text-align: justify;"}
