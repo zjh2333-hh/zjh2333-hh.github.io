@@ -113,4 +113,5 @@ social:
 highlight_name: true
 ---
 
-I am a PhD candidate in [School of Computer Science] (https://www.cs.cmu.edu/) at [Carnegie Mellon University (CMU)](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu] (https://zstevenwu.com/). During my undergraduate study, I was fortunate to receive guidance from Prof. [Boxin Shi](https://scholar.google.com/citations?user=K1LjZxcAAAAJ&hl=en) (Peking University), Prof. [Xiaotie Deng](https://scholar.google.com/citations?user=OBUwP_oAAAAJ&hl=zh-CN) (Peking University) and Dr. [Renato Paes Leme](https://www.renatoppl.com/) (Google Research New York). {style="text-align: justify;"}
+I am a PhD candidate in [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University (CMU)](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu](https://zstevenwu.com/). During my undergraduate study, I was fortunate to receive guidance from Prof. [Boxin Shi](https://scholar.google.com/citations?user=K1LjZxcAAAAJ&hl=en) (Peking University), Prof. [Xiaotie Deng](https://scholar.google.com/citations?user=OBUwP_oAAAAJ&hl=zh-CN) (Peking University) and Dr. [Renato Paes Leme](https://www.renatoppl.com/) (Google Research New York).
+{style="text-align: justify;"}
