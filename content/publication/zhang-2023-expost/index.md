@@ -5,7 +5,7 @@ authors:
 - Shuran Zheng
 - Renato Paes Leme
 - Zhiwei Steven Wu
-date: '2024-01-01'
+date: '2023-12-08'
 publication_types:
 - paper-conference
 publication: 'The 20th Conference on Web and Internet Economics (WINE 2024)'
