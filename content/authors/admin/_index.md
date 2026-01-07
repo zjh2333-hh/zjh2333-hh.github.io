@@ -28,16 +28,16 @@ organizations:
 bio: ''
 
 # Interests to show in About widget
-interests:
-  - Algorithmic game theory
-  - Information Design
-  - Machine Learning
+# interests:
+#   - Algorithmic game theory
+#   - Information Design
+#   - Machine Learning
 
 # Education to show in About widget
-education:
-  courses:
-    - course: BSc in Computer Science and Economics
-      institution: Peking University
+# education:
+#   courses:
+#     - course: BSc in Computer Science and Economics
+#       institution: Peking University
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -98,7 +98,7 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/zjh2333-hh
+    link: https://github.com/Jiahao-Zhangg
   # - icon: linkedin
   #   icon_pack: fab
   #   link: https://www.linkedin.com/
