@@ -7,11 +7,7 @@ authors:
 - Zhe Feng
 - Yifeng Teng
 - Xiaotie Deng
-date: '2024-01-15'
-publishDate: '2024-1-15T11:11:43.489344Z'
-publication_types:
-- paper-conference
-publication: 'ICLR (to appear)'
+publication: 'The Twelfth International Conference on Learning Representations (ICLR'24)'
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2312.04653
