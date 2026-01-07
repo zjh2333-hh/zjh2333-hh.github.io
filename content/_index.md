@@ -204,6 +204,8 @@ sections:
     id: papers
     content:
       title: Papers
+      text: |-
+        Unless specified otherwise, authors in all papers are listed in contribution order. The * sign indicates equal contribution.
       # Show all papers on the homepage (0 = all)
       count: 0
       # text: |-

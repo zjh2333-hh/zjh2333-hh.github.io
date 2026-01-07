@@ -15,4 +15,4 @@ banner:
   image: ''
 ---
 
-Unless specified otherwise, authors in all papers are listed in contribution order. The * sign indicates equal contribution.
+

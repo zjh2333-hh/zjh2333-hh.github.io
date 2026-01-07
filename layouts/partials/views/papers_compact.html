@@ -19,16 +19,35 @@
 
   {{/* Authors */}}
   {{ $authors := $p.Params.authors }}
+  {{/* Optional: mark equal contribution authors with asterisk
+       Usage in a publication front matter:
+       equal_contrib:
+       - admin
+       - Jingwu Tang
+  */}}
+  {{ $equal := $p.Params.equal_contrib }}
+  {{/* Optional: append a note after the author list, e.g. "(alphabetical order)" */}}
+  {{ $authorNote := $p.Params.author_note }}
   {{ if $authors }}
     <div class="papers-authors">
       {{ range $i, $a := $authors }}
+        {{ $aClean := strings.TrimSuffix "*" $a }}
+        {{ $shouldStar := false }}
+        {{ if $equal }}
+          {{ range $equal }}
+            {{ if or (eq . $aClean) (eq (lower .) (lower $aClean)) }}
+              {{ $shouldStar = true }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
         {{ if gt $i 0 }}, {{ end }}
-        {{ if eq (lower $a) "admin" }}
-          Jiahao Zhang
+        {{ if eq (lower $aClean) "admin" }}
+          Jiahao Zhang{{ if $shouldStar }}*{{ end }}
         {{ else }}
-          {{ $a }}
+          {{ $aClean }}{{ if $shouldStar }}*{{ end }}
         {{ end }}
       {{ end }}
+      {{ with $authorNote }} ({{ . }}){{ end }}
     </div>
   {{ end }}
 
