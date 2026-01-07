@@ -1,13 +1,33 @@
-/* Complete custom publication styling */
+/* Complete custom publication styling - Override Citation View */
 
 /* Publication container */
-.pub-list-item {
+.pub-list-item,
+.view-citation .pub-list-item {
   border: none !important;
   background: none !important;
   box-shadow: none !important;
   padding: 1.5rem 0 !important;
   margin-bottom: 2rem !important;
   border-bottom: 1px solid #eee !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Hide document icon completely */
+.pub-list-item .fa-file-text-o,
+.pub-list-item::before,
+.view-citation .pub-list-item::before {
+  display: none !important;
+}
+
+/* Force title to appear first in citation view */
+.view-citation .pub-list-item {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.view-citation .pub-list-item .article-title {
+  order: 1 !important;
 }
 
 .pub-list-item:last-child {
