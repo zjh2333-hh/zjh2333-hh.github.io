@@ -5,6 +5,9 @@ authors:
 - Shuran Zheng
 - Renato Paes Leme
 - Zhiwei Steven Wu
+date: ''
+publication_types:
+- paper-conference
 publication: 'The 20th Conference on Web and Internet Economics (WINE'24)'
 links:
 - name: arXiv

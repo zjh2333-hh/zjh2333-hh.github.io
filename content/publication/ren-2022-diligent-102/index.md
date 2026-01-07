@@ -7,6 +7,9 @@ authors:
 - Qian Zheng
 - Mingjun Ren
 - Boxin Shi
+date: ''
+publication_types:
+- paper-conference
 publication: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR'22)'
 links:
 - name: pdf
