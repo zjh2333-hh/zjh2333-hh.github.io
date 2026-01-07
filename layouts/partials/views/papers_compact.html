@@ -1,15 +1,24 @@
-{{/* 
+{{/*
   Custom homepage "Papers" view.
   Renders: Title -> Authors -> Venue (italic) -> Links (arXiv/PDF)
+
+  Note: Hugo Blox may call view partials with either:
+  - the Page as context, OR
+  - a dict containing `.page` / `.item`
+  So we normalize to `$p`.
 */}}
+
+{{ $p := . }}
+{{ with .page }}{{ $p = . }}{{ end }}
+{{ with .item }}{{ $p = . }}{{ end }}
 
 <div class="papers-item">
   <div class="papers-title">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
   </div>
 
   {{/* Authors */}}
-  {{ $authors := .Params.authors }}
+  {{ $authors := $p.Params.authors }}
   {{ if $authors }}
     <div class="papers-authors">
       {{ range $i, $a := $authors }}
@@ -24,12 +33,12 @@
   {{ end }}
 
   {{/* Venue */}}
-  {{ with .Params.publication }}
+  {{ with $p.Params.publication }}
     <div class="papers-venue"><em>{{ . }}</em></div>
   {{ end }}
 
   {{/* Links */}}
-  {{ with .Params.links }}
+  {{ with $p.Params.links }}
     <div class="papers-links">
       {{ range . }}
         {{ $name := .name | default "Link" }}
