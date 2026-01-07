@@ -1,0 +1,15 @@
+/* Hide the year from publication author line */
+.pub-list-item .article-metadata .article-date {
+  display: none !important;
+}
+
+/* Hide any year display in publication metadata */
+.pub-list-item .article-metadata .middot-divider + .article-date,
+.pub-list-item .article-metadata .article-date + .middot-divider {
+  display: none !important;
+}
+
+/* Clean up any extra spacing from hidden elements */
+.pub-list-item .article-metadata {
+  line-height: 1.4;
+}

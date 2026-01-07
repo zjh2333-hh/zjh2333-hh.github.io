@@ -1,10 +1,10 @@
 ---
 title: 'Dimension-free decision calibration for nonlinear loss functions'
 authors:
-- Jingwu Tang
+- Jingwu Tang*
 - Jiayun Wu
 - Zhiwei Steven Wu
-- admin
+- admin*
 date: '2025-04-22'
 publication_types:
 - manuscript
