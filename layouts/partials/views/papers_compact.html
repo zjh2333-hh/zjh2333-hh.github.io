@@ -1,0 +1,45 @@
+{{/* 
+  Custom homepage "Papers" view.
+  Renders: Title -> Authors -> Venue (italic) -> Links (arXiv/PDF)
+*/}}
+
+<div class="papers-item">
+  <div class="papers-title">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </div>
+
+  {{/* Authors */}}
+  {{ $authors := .Params.authors }}
+  {{ if $authors }}
+    <div class="papers-authors">
+      {{ range $i, $a := $authors }}
+        {{ if gt $i 0 }}, {{ end }}
+        {{ if eq (lower $a) "admin" }}
+          Jiahao Zhang
+        {{ else }}
+          {{ $a }}
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Venue */}}
+  {{ with .Params.publication }}
+    <div class="papers-venue"><em>{{ . }}</em></div>
+  {{ end }}
+
+  {{/* Links */}}
+  {{ with .Params.links }}
+    <div class="papers-links">
+      {{ range . }}
+        {{ $name := .name | default "Link" }}
+        {{ $url := .url }}
+        {{ if $url }}
+          <a class="papers-link" href="{{ $url }}" target="_blank" rel="noopener">{{ $name }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+
