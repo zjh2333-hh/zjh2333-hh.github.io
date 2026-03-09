@@ -7,6 +7,9 @@ authors:
 - Zhuohao Yu
 - Gokul Swamy
 - Zhiwei Steven Wu
+equal_contrib:
+- admin
+- Lujing Zhang
 date: '2026-02-22'
 publication_types:
 - manuscript
