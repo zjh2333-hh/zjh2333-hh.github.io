@@ -8,7 +8,7 @@ authors:
 date: '2025-11-07'
 publication_types:
 - manuscript
-publication: 'Working Paper'
+publication: 'The Forty-Third International Conference on Machine Learning (ICML 2026)'
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2511.04993
